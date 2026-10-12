@@ -4,13 +4,13 @@
 
 Windows向けの、軽快なPDF・Markdown・テキスト・表・HTMLビューワです。
 
-**[正式版 v0.3.3 をダウンロード](https://github.com/mezon-web/LightView-Releases/releases/tag/v0.3.3)**
+**[正式版 v0.3.4 をダウンロード](https://github.com/mezon-web/LightView-Releases/releases/tag/v0.3.4)**
 
-[以前の試作版 0.3.3-design.1](https://github.com/mezon-web/LightView-Releases/releases/tag/v0.3.3-design.1)も履歴として残しています。
+長いPDFでもスクロールバーのつまみをつかみやすい長さに保ちます。[1,001ページPDFの表示例](assets/scrollbar-0.3.4.png)
 
 ## はじめに
 
-1. 正式版のリリースページの **Assets** から `LightView-v0.3.3-win-x64.zip` をダウンロードします。
+1. 正式版のリリースページの **Assets** から `LightView-v0.3.4-win-x64.zip` をダウンロードします。
 2. ZIPを展開し、`LightView` フォルダ内の **LightView.exe** を起動します。
 3. 「開く」またはファイルのドラッグ＆ドロップで文書を開きます。
 
@@ -61,9 +61,9 @@ Markdown・HTMLの埋め込みスクリプトを実行せず、外部画像を�
 アプリを終了し、新しいZIPを展開して配布フォルダを更新してください。ファイル履歴は引き継ぎます。
 各リリースにZIPの **SHA-256チェックサム** を添付しています。
 
-ライト／ダーク実装はWindows 11の隔離デスクトップで全機能828項目と追加のテーマ検査27項目を確認しました。旧版との表示密度比較は270条件、ZIP展開後の起動は30回、独立した7ウィンドウも確認しています。Windows 10実機では未検証です。
+v0.3.4はWindows 11の隔離デスクトップで全機能834項目と追加のテーマ・画素検査27項目を確認しました。1,001ページのPDFでつまみを20から36 DIPに改善し、ZIP展開後の起動30回と独立した7ウィンドウも確認しています。PDFスクロールのフレーム時間95%点は16.81 msでした。Windows 10実機では未検証です。
 [変更履歴](CHANGELOG.md) / [第三者ソフトウェアの表記](THIRD-PARTY-NOTICES.md)
 
 このリポジトリは配布版と利用者向け文書を管理します。第三者ソフトウェアのライセンスは配布ZIP内の `_support/licenses` フォルダに同梱しています。
 
-リリースに自動表示される「Source code」は、この配布リポジトリの説明書・画像のアーカイブです。アプリ本体のソースコードは含みません。正式版アプリは `LightView-v0.3.3-win-x64.zip` をダウンロードしてください。
+リリースに自動表示される「Source code」は、この配布リポジトリの説明書・画像のアーカイブです。アプリ本体のソースコードは含みません。正式版アプリは `LightView-v0.3.4-win-x64.zip` をダウンロードしてください。
