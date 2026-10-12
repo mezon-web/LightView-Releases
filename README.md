@@ -4,11 +4,13 @@
 
 Windows向けの、軽快なPDF・Markdown・テキスト・表・HTMLビューワです。
 
-**[最新版をダウンロード](https://github.com/mezon-web/LightView-Releases/releases/latest)**
+**[ライト／ダーク対応の試作版 0.3.3-design.1 をダウンロード](https://github.com/mezon-web/LightView-Releases/releases/tag/v0.3.3-design.1)**
+
+[安定版 v0.3.2](https://github.com/mezon-web/LightView-Releases/releases/latest)も引き続き入手できます。
 
 ## はじめに
 
-1. リリースページの **Assets** から `LightView-v0.3.2-win-x64.zip` をダウンロードします。
+1. 試作版のリリースページの **Assets** から `LightView-v0.3.3-design.1-win-x64.zip` をダウンロードします。
 2. ZIPを展開し、`LightView` フォルダ内の **LightView.exe** を起動します。
 3. 「開く」またはファイルのドラッグ＆ドロップで文書を開きます。
 
@@ -40,9 +42,15 @@ Windows向けの、軽快なPDF・Markdown・テキスト・表・HTMLビュー�
 
 「検索」は「目次」のすぐ右です。表示範囲のボタンは「幅」「全体」です。文書形式に合う操作をツールバーへ表示し、幅に収まらない操作だけ「…」へ移します。ウィンドウを広げるとボタンに戻ります。PDFは画面のピクセルに合わせて描画し、縮小時の余分なぼかしを抑えます。32MiB以上のテキスト・表は行の索引を作り、表示する部分を読み込みます。
 
+試作版では右上の太陽／月でライト／ダークを切り替えられます。設定は再起動後も復元し、PDFの紙面は元の色を保ちます。ツールバーの高さ、文字サイズ、表示できる操作数は維持しています。
+
 Markdown・HTMLの埋め込みスクリプトを実行せず、外部画像を自動取得しません。閲覧専用です。
 
 ## 画面
+
+![試作版のPDF検索画面：ライトとダーク](assets/compare-search-0.3.3-design.1.png)
+
+![試作版のMarkdown画面：ライトとダーク](assets/compare-markdown-0.3.3-design.1.png)
 
 ![LightViewのPDF表示](assets/viewer.png)
 
@@ -53,9 +61,9 @@ Markdown・HTMLの埋め込みスクリプトを実行せず、外部画像を�
 アプリを終了し、新しいZIPを展開して配布フォルダを更新してください。ファイル履歴は引き継ぎます。
 各リリースにZIPの **SHA-256チェックサム** を添付しています。
 
-v0.3.2はWindows 11の隔離デスクトップで758項目を検査しました。ZIP展開後の30回の起動と独立した7ウィンドウも確認しています。Windows 10実機では未検証です。
+試作版はWindows 11の隔離デスクトップで全機能828項目と追加のテーマ検査27項目を確認しました。旧版との表示密度比較は270条件、ZIP展開後の起動は30回、独立した7ウィンドウも確認しています。Windows 10実機では未検証です。
 [変更履歴](CHANGELOG.md) / [第三者ソフトウェアの表記](THIRD-PARTY-NOTICES.md)
 
 このリポジトリは配布版と利用者向け文書を管理します。第三者ソフトウェアのライセンスは配布ZIP内の `_support/licenses` フォルダに同梱しています。
 
-リリースに自動表示される「Source code」は、この配布リポジトリの説明書・画像のアーカイブです。アプリ本体のソースコードは含みません。アプリは `LightView-v0.3.2-win-x64.zip` をダウンロードしてください。
+リリースに自動表示される「Source code」は、この配布リポジトリの説明書・画像のアーカイブです。アプリ本体のソースコードは含みません。試作版アプリは `LightView-v0.3.3-design.1-win-x64.zip` をダウンロードしてください。
