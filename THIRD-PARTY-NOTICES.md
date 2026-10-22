@@ -33,4 +33,3 @@ the same directory and in the original bundled license comments. This includes
 Mermaid's internal DOMPurify and KaTeX copies, distinct from the preview's direct
 dependencies above. Browser fonts and JavaScript are included locally. No CDN,
 Node.js, .NET Runtime, or WebView2 Runtime is required in the portable folder.
-Refresh dependencies with `python scripts/vendor-markdown.py`.
