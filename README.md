@@ -4,13 +4,13 @@
 
 Windows向けの、軽快なPDF・Markdown・テキスト・表・HTMLビューワです。
 
-**[正式版 v0.3.6 をダウンロード](https://github.com/mezon-web/LightView-Releases/releases/tag/v0.3.6)**
+**[正式版 v0.3.7 をダウンロード](https://github.com/mezon-web/LightView-Releases/releases/tag/v0.3.7)**
 
 設定・履歴・読書位置は、起動後にEXE横へ作成される `UserData` に保存します。[長いPDFの表示例](assets/scrollbar-0.3.4.png)も確認できます。
 
 ## はじめに
 
-1. 正式版のリリースページの **Assets** から `LightView-v0.3.6-win-x64.zip` をダウンロードします。
+1. 正式版のリリースページの **Assets** から `LightView-v0.3.7-win-x64.zip` をダウンロードします。
 2. ZIPを展開し、`LightView` フォルダ内の **LightView.exe** を起動します。
 3. 「開く」またはファイルのドラッグ＆ドロップで文書を開きます。
 
@@ -61,7 +61,7 @@ Markdown・HTMLの埋め込みスクリプトを実行せず、外部画像を�
 アプリを終了し、同じフォルダの **LightView.exe** と **_support** を新しいZIPのものへ置き換えてください。**UserData** は残します。別フォルダに展開する場合は、UserDataもコピーすると履歴・読書位置・外観設定を引き継げます。旧版の `%LOCALAPPDATA%\LightPDF` にある設定は自動移行しません。設定の保存には展開先への書き込み権限が必要です。
 各リリースにZIPの **SHA-256チェックサム** を添付しています。
 
-v0.3.6はWindows 11で動作を確認しています。Windows 10実機では未確認です。
+v0.3.7はWindows 11の隔離デスクトップで、発行済みアプリの749項目とZIP展開後の起動を検査しました。Windows 10実機では未確認です。[修正・検証・性能上の変更](docs/verification/v0.3.7.md)も確認してください。
 [変更履歴](CHANGELOG.md) / [第三者ソフトウェアの表記](THIRD-PARTY-NOTICES.md)
 
 このリポジトリは配布版と利用者向け文書を管理します。第三者ソフトウェアのライセンスは配布ZIP内の `_support/licenses` フォルダに同梱しています。

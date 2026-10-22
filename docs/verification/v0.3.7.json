@@ -1,0 +1,31 @@
+{
+  "version": "0.3.7",
+  "archive": "LightView-v0.3.7-win-x64.zip",
+  "archiveSha256": "60daf2f48c42cc6b5dfdb4d46ccb34651515650e2e8eadd1c9601db35b886682",
+  "archiveBytes": 8495687,
+  "files": 229,
+  "executableSha256": "c63672a6d86a03bc11d64839aea4fc400ee718b0daa10c32a469c63cd2b680d6",
+  "checksPassed": 749,
+  "rootEntries": [
+    "LightView.exe",
+    "_support"
+  ],
+  "runtimesBundled": false,
+  "userDataExcluded": true,
+  "personalMachineMarkersExcluded": true,
+  "portableSettingsPassed": true,
+  "independentWindowCount": 7,
+  "downloadVerification": {
+    "passed": true,
+    "version": "0.3.7",
+    "archiveSha256": "60daf2f48c42cc6b5dfdb4d46ccb34651515650e2e8eadd1c9601db35b886682",
+    "archiveBytes": 8495687,
+    "manifestFilesVerified": 228,
+    "downloadedExecutableSha256": "c63672a6d86a03bc11d64839aea4fc400ee718b0daa10c32a469c63cd2b680d6",
+    "sourcePackageIdentical": true,
+    "userDataExcluded": true,
+    "isolatedDesktop": true,
+    "startupCases": 10,
+    "portableSettingsPassed": true
+  }
+}
