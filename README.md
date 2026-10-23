@@ -4,18 +4,18 @@
 
 Windows向けの、軽快なPDF・Markdown・テキスト・表・HTMLビューワです。
 
-**[正式版 v0.3.7 をダウンロード](https://github.com/mezon-web/LightView-Releases/releases/tag/v0.3.7)**
+**[正式版 v0.3.8 をダウンロード](https://github.com/mezon-web/LightView-Releases/releases/tag/v0.3.8)**
 
 設定・履歴・読書位置は、起動後にEXE横へ作成される `UserData` に保存します。[長いPDFの表示例](assets/scrollbar-0.3.4.png)も確認できます。
 
 ## はじめに
 
-1. 正式版のリリースページの **Assets** から `LightView-v0.3.7.zip` をダウンロードします。
-2. ZIPを展開し、`LightView-v0.3.7` フォルダ内の **LightView.exe** を起動します。
+1. 正式版のリリースページの **Assets** から `LightView-v0.3.8.zip` をダウンロードします。
+2. ZIPを展開し、`LightView-v0.3.8` フォルダ内の **LightView.exe** を起動します。
 3. 「開く」またはファイルのドラッグ＆ドロップで文書を開きます。
 
 インストーラーはありません。フォルダごと保存して使うポータブル版です。
-展開した `LightView-v0.3.7` フォルダの **LightView.exe** を起動し、補助フォルダ **_support** はEXEと一緒に保存してください。起動後に個人設定用の **UserData** が作成されます。
+展開した `LightView-v0.3.8` フォルダの **LightView.exe** を起動し、補助フォルダ **_support** はEXEと一緒に保存してください。起動後に個人設定用の **UserData** が作成されます。
 使い方は右端の **「？」／F1** または [操作説明](docs/操作説明.md) で確認できます。
 
 ## 必要な実行環境

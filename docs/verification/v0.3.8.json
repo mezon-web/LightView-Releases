@@ -1,0 +1,38 @@
+{
+  "version": "0.3.8",
+  "archive": "LightView-v0.3.8.zip",
+  "archiveBytes": 8502534,
+  "archiveSha256": "5585f04cb3a8c13c89a94169c7c2a583c6d58cb3176935d7f66357643fdc4f1a",
+  "executableSha256": "082cc76ca36788fe949da16d6932ae76cc25eaf17ab1a85df30532502ba71ec4",
+  "checksPassed": 770,
+  "files": 229,
+  "topFolder": "LightView-v0.3.8",
+  "rootEntries": [
+    "LightView.exe",
+    "_support"
+  ],
+  "userDataExcluded": true,
+  "runtimesBundled": false,
+  "personalMachineMarkersExcluded": true,
+  "cachedScroll": {
+    "paint95": 0.0067,
+    "frame95": 16.8066,
+    "samples": 120,
+    "frameSamples": 124
+  },
+  "portableSettingsPassed": true,
+  "independentWindows": 7,
+  "downloadVerification": {
+    "passed": true,
+    "version": "0.3.8",
+    "archiveSha256": "5585f04cb3a8c13c89a94169c7c2a583c6d58cb3176935d7f66357643fdc4f1a",
+    "archiveBytes": 8502534,
+    "manifestFilesVerified": 228,
+    "downloadedExecutableSha256": "082cc76ca36788fe949da16d6932ae76cc25eaf17ab1a85df30532502ba71ec4",
+    "sourcePackageIdentical": true,
+    "userDataExcluded": true,
+    "isolatedDesktop": true,
+    "startupCases": 10,
+    "portableSettingsPassed": true
+  }
+}
